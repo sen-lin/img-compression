@@ -1,8 +1,11 @@
 {
   "name": "img-compression",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "一个图片压缩小工具",
   "main": "index.js",
+  "bin":{
+    "img-c": "./bin/convert"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
